@@ -31,7 +31,7 @@ mongoose.connect('mongodb://localhost:27017/shopping-cart',
         console.log(err);
     })
 
-
+ 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '/views'));
 app.use(express.urlencoded({ extended: true }));
